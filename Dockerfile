@@ -10,6 +10,7 @@ RUN apk add --no-cache ca-certificates \
  && mv ./kubectl /usr/local/bin/kubectl \
  && curl -L https://storage.googleapis.com/kubernetes-helm/helm-v2.12.1-linux-amd64.tar.gz | tar xz \
  && mv linux-amd64/helm /usr/local/bin/helm \
+ && mv linux-amd64/tiller /usr/bin/ \
  && rm -rf linux-amd64 
 
 
