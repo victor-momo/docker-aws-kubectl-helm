@@ -11,7 +11,6 @@ RUN apk add --no-cache ca-certificates \
  && wait \
  && chmod +x /usr/local/bin/aws-iam-authenticator \
  && chmod +x ./kubectl \
- && ls -la \
  && mv ./kubectl /usr/local/bin/kubectl \
  && mv linux-amd64/helm /usr/local/bin/helm \
  && mv linux-amd64/tiller /usr/local/bin/tiller \
