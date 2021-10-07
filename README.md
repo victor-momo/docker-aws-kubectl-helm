@@ -1,2 +1,2 @@
 # docker-aws-kubectl-helm
-Simple docker image with aws CLI, kubectl &amp; helm installed
+Docker image with AWS CLI, AWS IAM authenticator for Kubernetes, kubectl &amp; helm (v2 -- tiller included) installed.
